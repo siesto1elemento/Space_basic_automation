@@ -15,10 +15,10 @@ driver.get("https://portal.spacebasic.com/login")
 time.sleep(2)
 
 email_field = driver.find_element(By.NAME, "email")
-email_field.send_keys("YOUR_MUJ_EMAIL")
+email_field.send_keys("YOUR_EMAIL")
 
 password_field = driver.find_element(By.NAME, "password")
-password_field.send_keys("YOUR_MUJ_PASSWORD")
+password_field.send_keys("YOUR_PASSWORD")
 
 
 login_button = driver.find_element(By.XPATH, "//button[@type='submit']")
